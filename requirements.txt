@@ -1,0 +1,12 @@
+sqlalchemy == 1.1.0
+flask
+py-postgresql
+flake8
+pytest
+pytest-mock
+pytest-coverage
+psycopg2
+flask_jsontools
+flask_sqlalchemy
+redis
+rq
