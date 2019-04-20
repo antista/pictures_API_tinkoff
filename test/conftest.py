@@ -1,4 +1,5 @@
 import pytest
+from api.models import r
 
 from api import wsgi
 
@@ -18,3 +19,8 @@ def test_client():
     yield testing_client
 
     ctx.pop()
+
+
+@pytest.fixture(autouse=True)
+def clean_db():
+    r.flushdb()
