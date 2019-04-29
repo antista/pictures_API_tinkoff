@@ -1,0 +1,10 @@
+flask
+flake8
+pytest
+pytest-mock
+pytest-coverage
+flask_jsontools
+flask_sqlalchemy
+redis
+rq
+pillow
